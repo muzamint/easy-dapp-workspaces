@@ -1,0 +1,29 @@
+{
+  "name": "easy-dapp-sdk",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Ming-der Wang<mingderwang@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "oao test"
+  },
+  "keywords": [
+    "hardhat",
+    "ethereum",
+    "workspaces",
+    "oao",
+    "react-native",
+    "ethers"
+  ],
+  "devDependencies": {
+    "oao": "^2.0.2",
+    "yarn": "^1.22.10"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "debug": "4.3.1"
+  }
+}
