@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "oao test"
+    "status": "npx oao status",
+    "expo:start": "yarn workspace my-expo-app start"
   },
   "keywords": [
     "hardhat",
@@ -22,8 +23,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {
-    "debug": "4.3.1"
-  }
+  ]
 }
